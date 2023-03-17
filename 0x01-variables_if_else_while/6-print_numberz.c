@@ -1,17 +1,15 @@
-#include <stdio.h>
-
+#include <stdio.h
 /**
-* main - Print all single digit numbers using only putchar
-* Return: Always 0 (Success)
-*/
+ * main - prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-	int digit;
+	int i;
 
-	for (digit = 0; digit < 10; digit++)
-	putchar(digit + '0');
-
+	for (i = 0 ; i < 10 ; i++)
+		putchar(i + '0');
 	putchar('\n');
-
 	return (0);
 }
